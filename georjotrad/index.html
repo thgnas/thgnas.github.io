@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GEORJOTRAD</title>
+<meta name="description" content="Aide à l'investissement PEA & ETF : scores, plans d'achat, objectifs de vente, simulations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%234f46e5%27/%3E%3Cpath d=%27M6 22l6-7 5 4 9-11%27 stroke=%27white%27 stroke-width=%273%27 fill=%27none%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<meta name="theme-color" content="#4f46e5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="GEORJOTRAD">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdn.jsdelivr.net/npm/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">GEORJO<span>TRAD</span></a>
+  <nav id="nav">
+    <a href="#/" data-route=""><i>🏠</i><span class="l">Tableau de bord</span><span class="s">Accueil</span></a>
+    <a href="#/achat-fort" data-route="achat-fort"><i>🔥</i><span class="l">🔥 Achat fort</span><span class="s">Achat fort</span></a>
+    <a href="#/portefeuille" data-route="portefeuille"><i>💼</i><span class="l">💼 Portefeuille</span><span class="s">Portefeuille</span></a>
+    <a href="#/scanner" data-route="scanner"><i>🔎</i><span class="l">Scanner</span><span class="s">Scanner</span></a>
+    <a href="#/simulateur" data-route="simulateur"><i>🧮</i><span class="l">Simulateurs</span><span class="s">Simuler</span></a>
+    <a href="#/methode" data-route="methode"><i>📖</i><span class="l">Méthode</span><span class="s">Méthode</span></a>
+  </nav>
+  <div class="topbar-right">
+    <span id="maj" class="muted mono"></span>
+    <button id="theme" class="icon-btn" title="Changer de thème" aria-label="Changer de thème">◐</button>
+  </div>
+</header>
+<main id="app"><div class="loading">Chargement des données…</div></main>
+<footer class="foot">GEORJOTRAD · outil d'aide à la décision, pas un conseil en investissement. Les performances passées ne préjugent pas des performances futures.</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
